@@ -1,5 +1,11 @@
 # Modular Neovim Config (Kickstart-inspired)
 
+## Why have my own config?
+
+- I want to look into learning some lua.
+- I want to try to keep the config modular so adding, removing or changing plugins is seemless and easy.
+- Neovim is just great, so why not make it better!
+
 ## What you get
 - Clear separation of concerns:
   - `lua/config/` for options, keymaps, autocmds
