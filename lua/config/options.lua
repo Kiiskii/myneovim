@@ -29,3 +29,5 @@ vim.api.nvim_set_hl(0, "CmpGhostText", { link = "Comment" })
 vim.opt.tabstop = 4
 vim.opt.shiftwidth = 4
 vim.opt.expandtab = false
+vim.opt.autoindent = true -- baseline: copy indent from current line on new line
+vim.opt.smartindent = true -- block-aware indent fallback when no treesitter/indent script (only applies when indentexpr is empty)
