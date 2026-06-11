@@ -1,6 +1,7 @@
 -- Editor options
 vim.opt.number = true
 -- vim.opt.relativenumber = true
+vim.opt.termguicolors = true -- enable 24-bit color (required by truecolor schemes like tokyonight)
 vim.opt.mouse = "a"
 vim.opt.showmode = false
 

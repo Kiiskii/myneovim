@@ -9,7 +9,7 @@ return {
       -- API with an explicit install() call plus per-buffer vim.treesitter.start().
       -- (master is archived and crashes on Neovim 0.12 — see git history.)
       local parsers = {
-        'bash', 'c', 'diff', 'html', 'lua', 'luadoc',
+        'bash', 'c', 'cpp', 'diff', 'html', 'lua', 'luadoc',
         'markdown', 'markdown_inline', 'query', 'vim', 'vimdoc',
       }
       require('nvim-treesitter').install(parsers)
